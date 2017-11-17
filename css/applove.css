@@ -1,0 +1,175 @@
+/*CLASES REUTILIZABLES*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.71429;
+  font-family: 'Raleway', sans-serif;
+}
+
+img {
+  vertical-align: middle;
+}
+
+header{
+  display: fixed;
+  background: #FFF;
+  width: 100%;
+}
+
+/*Agragado*/
+header >  img {
+  width:50px;
+  height: 50px;
+  float: right;
+  z-index: 93%;
+}
+
+/*Agragado*/
+header >div {
+  float: left;
+  margin-top: 20px;
+}
+
+/*Agragado*/
+header >div > a {
+margin:20px;
+ }
+
+ footer{
+   background: #000;
+   color: #FFF;
+   text-align: center;
+ }
+
+ #segunda-section {
+   background-image: url("../assets/images/bg-home.jpg");
+   /*background-size: cover;*/
+   height: 500px;
+   color: #FFF;
+   text-align: center;
+ }
+
+  #segunda-section >div {
+    padding-top: 100px;   /*para centrar letras, es a ojo de biuen cubero*/
+  }
+
+  #segunda-section >div > a{
+  background-color: #2ecc71;
+  padding: 10px 15px;
+  color: #FFF;
+  display: inline-block;
+  margin-top: 20px;
+  }
+
+  #tercera-section {
+background: red;
+text-align: center;
+color: #FFF;
+padding-bottom: 100px;
+  }
+
+  h2, h6{ /*se podr[ia agregar el h6*/
+    margin: 0px;
+  }
+
+  #tercera-section > div > h2 {
+  padding:40px 0px;
+  }
+
+#tercera-section > div > div{
+  display: inline-block;
+  width: 30%;
+}
+#tercera-section > div > div > img {
+  width: 200px;
+}
+
+#cuarta-section{
+  text-align:center;
+}
+
+#cuarta-section > div > h2{
+  text-align:center;
+  padding: 20px 0px;
+}
+
+#cuarta-section > div.imagenes > div {
+  display: inline-block;
+  width: 27%;
+  margin: 15px;
+}
+
+#cuarta-section > div > img {
+  width: 100%;
+}
+
+#cuarta-section > div.imagenes > div > img {
+  width:100%;
+}
+
+/*Agragado*/
+.clear {
+  clear: left;
+}
+
+.container {
+  width: 1200px;
+  margin-right: auto;/*centrar */
+  margin-left: auto;
+  padding-left: 14px;
+  padding-right: 14px; /*dejar espacio en blanco a los lados*/
+}
+
+.container:before, .container:after {
+  content: " ";
+  display: table;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container:after {
+  clear: both;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.m-0 {
+  margin: 0px;
+}
+
+a {
+  color: #373B47;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #E95853;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+/*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
